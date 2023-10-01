@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #603728;
+            color: rgb(11, 11, 11);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 43px;
+            background-color:#805B4E;
+        }
+        nav ul{
+            display:flex;
+            justify-content:center;
+        }
+        nav ul li{
+            list-style: none;
+            
+        }
+        nav ul li a{
+            margin: 20px 16px;
+            padding: 3px 14px;
+            text-decoration: none;
+            color: black;
+            font-size: 21px;
+        }
+        nav ul li a:hover{
+            color: antiquewhite;
+            font-size: 1.04rem;
+        }
+        .left{
+            font-size: 1.5rem;
+        }
+        .firstclass{
+            display: flex;
+            justify-content: space-around;
+            margin: 44px 0px;
+            align-items: center;
+            background-color: #d2dae2;
+            border: 3px solid black;
+        }
+        .firstclass >div{
+            width: 30%;
+        }
+        .leftsection{
+            font-size: 2.5rem;
+        
+            width: 40%;
+        }
+        .rightsection img{
+            width:80%;
+            margin: 22px 0px;
+            border-radius: 41px;
+        }
+        .name{
+            color:#924d33;
+        }
+        main hr{
+            border: 0;
+            background-color: #dfbeb2;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        #about{
+            
+    padding-top: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+    align-items: center;
+        }
+        #about h1{
+            font-size:55px;
+            color: bisque;
+            
+        }
+        #about p{
+            margin: 16px 10px;
+            font-size: 25px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+        #skills{
+            padding-top: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+    align-items: center;
+
+        }
+        #skills h1{
+            color:#f0d0a6;
+            font-size:55px;
+        }
+    
+        
+        #skills li img{
+            width:10%;
+        
+        }
+        #skills ul{
+            display: inline-block;
+            justify-content: center;
+            margin: 10px 35px;
+            padding: 10px 27px;
+            list-style: none;
+        }
+        #contact{
+            padding-top: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+    align-items: center;         
+        }
+        #contact h1{
+            color:#f0d0a6;;
+            font-size: 54px;
+        }
+        #contact li img{
+            width:4%;
+        }
+        #contact ul {
+            list-style: none;
+        }
+        .number{
+            color: #0d0f11;
+    margin: 63px 22px;
+    font-size: 27px;
+}
+   .email{
+    color: #0d0f11;
+    font-size: 27px;
+    margin: 63px 22px;
+   }     
+        
+
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                Kratika Gupta
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Contact </a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstclass">
+            <div class="leftsection">
+                    Hey,
+                    <div>My name is <span class="name"><u>Kratika Gupta</u></span></div>
+
+            </div>
+            <div class="rightsection">
+                <img src="ing2.jpg" alt="profile photo">
+            </div>
+        </section>
+    
+    <hr>
+    <section id="about">
+        <div>
+            <h1>
+                <u>About Me</u>
+            </h1>
+        </div>
+        <div>
+            <p>
+               <em> I am currently pursuing B.tech in Computer Science and Engineering with Data Science. I am in the sophomore of my enginnering journey. 
+                I am amicable, optimistic, easy-going,hardworking and determined person, who likes learning about various fields associated with technology and the latest 
+                trends ongoing in the market. My hobbies include playing badminton,watching netflix, travelling, exploring various food cuisines 
+                and listening to music.I have done my schooling from sant tulsi public school, Banda. I like interacting with people and making friends,
+                which helps me in refining my social and communication skills and learn a bit more about various cultures and traditions.
+                I look forward to learn about more technological aspects and explore a lot more in my domain. </em>
+
+            </p>
+        </div>
+        </section>
+        <hr>
+        <section id="skills">
+            <div>
+                <h1><u>SKILLS</u></h1>
+            </div>
+            <ul>
+                <li><img src="html.png" alt=" html photo"></li>
+                <li><img src="csspng.png" alt="css photo">L</li>
+                <li><img src="C++png.png" alt="cpp photo"></li>
+                
+            </ul>
+        </section>
+        <hr>
+        <section id="contact">
+            <div>
+                <h1><u>Contact</u></h1>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="tel:7318329213"><img src="phone.png" alt="phone icon"></a> 
+                        <span class="number"> 7318329213</span>
+                    </li>
+                    <li><a href="mailto:gupta22154@akgec.ac.in"><img src="email.png" alt=" email icon"></a>
+                        <span class="email">
+                            gupta22154004@akgec.ac.in
+                        </span>
+                    </li>
+                    
+                </ul>
+            </div>
+
+        </section>
+
+    </main>
+    
+</body>
+</html>
